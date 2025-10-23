@@ -61,6 +61,7 @@ static void MX_ADC1_Init(void);
 /* USER CODE BEGIN 0 */
 uint16_t ADC_VAL = 0;
 int value = 0;
+char test = 'H';
 
 long map(long x, long in_min, long in_max, long out_min, long out_max)
 {
